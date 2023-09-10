@@ -1,0 +1,1 @@
+gunicorn -w 4 --reload --bind 0.0.0.0:5001 app:app
